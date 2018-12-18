@@ -84,7 +84,8 @@ def getCol(path):
              #  list1 = line.rstrip().split(',')
                # dataset = dict(zip(header,list1))
                # print(dataset[col_name])
-
+        drawGrap1(dataset)
+        drawGrap2(dataset)
         drawGrap3(dataset)
 
 try:
